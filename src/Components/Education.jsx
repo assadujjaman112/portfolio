@@ -2,7 +2,7 @@ import { BiCalendar, BiSolidSchool } from "react-icons/bi";
 
 const Education = () => {
   return (
-    <div className="text-white my-5 md:my-8 lg:my-12 w-4/5 mx-auto">
+    <div id="education" className="text-white my-5 md:my-8 lg:my-12 w-4/5 mx-auto">
       <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-center my-5 ">
         Educational <span className="text-blue-400">Qualifications</span>
       </h1>

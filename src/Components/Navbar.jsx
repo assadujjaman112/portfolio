@@ -1,13 +1,26 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to="/" >Home</NavLink>
+        <Link to="/" className="text-white">
+          Home
+        </Link>
+      </li>
+
+      <li>
+        <a href="/#projects" className="text-white">
+          Projects
+        </a>
       </li>
       <li>
-        <NavLink to="/about">About Me</NavLink>
+        <a href="/#education" className="text-white">
+          Education
+        </a>
+      </li>
+      <li>
+        <a href="/#contact">Contact Me</a>
       </li>
     </>
   );
@@ -38,7 +51,9 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <Link to="/" className="text-3xl font-bold">Assadujjaman</Link>
+        <Link to="/" className="text-3xl font-bold">
+          Assadujjaman
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>

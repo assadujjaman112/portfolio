@@ -40,7 +40,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div>
+    <div id="projects">
       <h1 className="text-white font-bold text-3xl md:text-4xl lg:text-5xl text-center my-5">
         My Projects
       </h1>

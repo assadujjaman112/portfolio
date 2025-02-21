@@ -2,7 +2,7 @@ import { MdLocalPhone, MdEmail, MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="text-white my-5 md:my-8 lg:my-12 w-11/12 md:w-4/5 mx-auto">
+    <div id="contact" className="text-white my-5 md:my-8 lg:my-12 w-11/12 md:w-4/5 mx-auto">
       <h1 className="text-center text-3xl md:text-4xl lg:text-4xl font-bold">
         Contact
       </h1>
